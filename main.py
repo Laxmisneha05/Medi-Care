@@ -3,6 +3,7 @@ import os
 import streamlit as st
 from dotenv import load_dotenv
 import google.generativeai as gen_ai
+import streamlit as st
 
 
 # Load environment variables
@@ -31,8 +32,9 @@ def translate_role_for_streamlit(user_role):
 
 
 # Initialize chat session in Streamlit if not already present
-if "chat_session" not in st.session_state:
-    st.session_state.chat_session = model.start_chat(history=[])
+if 'chat_session' not in st.session_state:
+    st.session_state.chat_session = model.start_chat(history=[])  # You need to define initialize_chat_session() function
+
 
 
 # Display the chatbot's title on the page
