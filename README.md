@@ -1,2 +1,2 @@
-# gemini-pro-streamlit-chatbot
-This repository is about building a chatbot using Google's Gemini-Pro with streamlit.
+# Medi-Care
+Our AI will assist you in everything.😷🏥
