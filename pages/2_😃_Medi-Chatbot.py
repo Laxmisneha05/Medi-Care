@@ -1,20 +1,11 @@
 import os
-
 import streamlit as st
 from dotenv import load_dotenv
 import google.generativeai as gen_ai
-import streamlit as st
 
-
+st.title("ChatBot")
 # Load environment variables
 load_dotenv()
-
-# Configure Streamlit page settings
-st.set_page_config(
-    page_title="Chat with Gemini-Pro!",
-    page_icon=":brain:",  # Favicon emoji
-    layout="centered",  # Page layout option
-)
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
@@ -34,8 +25,6 @@ def translate_role_for_streamlit(user_role):
 # Initialize chat session in Streamlit if not already present
 if 'chat_session' not in st.session_state:
     st.session_state.chat_session = model.start_chat(history=[])  # You need to define initialize_chat_session() function
-
-
 
 # Display the chatbot's title on the page
 st.title("🤖 Gemini Pro - ChatBot")
