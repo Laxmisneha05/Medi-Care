@@ -59,7 +59,7 @@ page = st.sidebar.selectbox("Select a page", ["Main Page", "Heart Attack", "High
 
 if page == "Main Page":
     st.write("Welcome to Medi-Care AI. Select a disease from the sidebar to learn more about it.")
-    st.image("ex.png", caption="Your Personalized Ai Assistant 🚒", use_column_width=True)
+    st.image("Medi-Care\ex.png", caption="Your Personalized Ai Assistant 🚒", use_column_width=True)
 elif page == "Heart Attack":
     heart_attack_page()
 elif page == "High Blood Pressure":

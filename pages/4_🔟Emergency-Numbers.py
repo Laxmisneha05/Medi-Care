@@ -5,11 +5,11 @@ st.title("Numbers")
 
 # Define the ambulance numbers
 ambulance_numbers = [
-    {"number": "9967955239", "name": "Ambulance Number 1"},
-    {"number": "9967955239", "name": "Ambulance Number 2"},
-    {"number": "9967955239", "name": "Ambulance Number 3"},
-    {"number": "9967955239", "name": "Ambulance Number 4"},
-    {"number": "9967955239", "name": "Ambulance Number 5"},
+    {"number": "9967955239", "name": "Basic Number"},
+    {"number": "9967955239", "name": "Cardic Abulance Number"},
+    {"number": "9967955239", "name": "Ambulance Number"},
+    {"number": "9967955239", "name": "Ambulance Number"},
+    {"number": "9967955239", "name": "Cardic Ambulance Number"},
 ]
 
 # Add SOS button
